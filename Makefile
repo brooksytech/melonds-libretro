@@ -215,7 +215,7 @@ else ifeq ($(platform), libnx)
    HAVE_OPENGL = 1
    HAVE_THREADS = 1
    HAVE_NEON = 1
-   #JIT_ARCH = aarch64 # TODO: Re-add when armjit memory problems are fixed upstream
+   JIT_ARCH = aarch64
 #######################################
 
 # RPi4
