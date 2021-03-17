@@ -148,6 +148,7 @@ else ifeq ($(platform), tvos-arm64)
    TARGET := $(TARGET_NAME)_libretro_tvos.dylib
    fpic := -fPIC
    SHARED := -dynamiclib
+   HAVE_THREADS=1
    DEFINES := -DIOS
 
 ifeq ($(IOSSDK),)
